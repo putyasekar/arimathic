@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_16sdp"
+    android:orientation="vertical"
+    tools:context=".LimasFragment">
+
+    <TextView
+        android:id="@+id/limas_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="Limas"
+        android:textColor="#000"
+        android:textSize="@dimen/_19sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/volume_limas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Volume"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/luasalas_limas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Luas Alas"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/tinggi_limas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Tinggi"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calculate_limas"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="calculate"
+            android:textColor="#000"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/result_limas"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="Result" />
+    </LinearLayout>
+
+</LinearLayout>
